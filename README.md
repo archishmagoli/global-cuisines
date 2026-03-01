@@ -20,6 +20,9 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 - [X] The web app displays items in a unique format, such as cards rather than lists or animated list items
 
+The following **additional** features are implemented:
+- [X] The web app has been deployed to be accessible via URL. The frontend was deployed with Vercel, and the backend was deployed with Render.
+
 ## Video Walkthrough
 **Note: please be sure to 
 Here's a walkthrough of implemented required features:
