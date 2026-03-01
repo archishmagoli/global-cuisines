@@ -1,6 +1,8 @@
 # WEB103 Project 1 - *Global Cuisines*
 Submitted by: **Archie Goli**
+
 About this web app: **A page for users to explore the top 10 cuisines from around the world, submitted by the community.**
+
 Time spent: **5** hours
 
 ## Required Features
