@@ -22,6 +22,7 @@ const getCuisine = async () => {
 
 const container = document.querySelector('#cuisineDetail');
 const init = async () => {
+    console.log("Do we get here");
     const cuisine = await getCuisine();
     const card = CuisineCard(cuisine, true)
     container.appendChild(card);
