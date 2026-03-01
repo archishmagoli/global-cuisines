@@ -1,6 +1,7 @@
 {
-  "rewrites": [
-    { "source": "/cuisine", "destination": "/cuisine.html" },
-    { "source": "/(.*)", "destination": "/404.html" }
-  ]
+    "cleanUrls": true,
+    "rewrites": [
+        { "source": "/cuisine", "destination": "/cuisine.html" },
+        { "source": "/(.*)", "destination": "/404.html" }
+    ]
 }
