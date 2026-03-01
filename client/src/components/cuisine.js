@@ -38,7 +38,7 @@ export const CuisineCard = (cuisine, showDetails = false, showButton = false) =>
         const learnMoreButton = document.createElement('button');
         learnMoreButton.textContent = 'Learn More';
         learnMoreButton.addEventListener('click', () => {
-            window.location.href = `/cuisine.html?id=${cuisine.id}`
+            window.location.href = `/cuisine?id=${cuisine.id}`;
         })
         card.appendChild(learnMoreButton);
     }
