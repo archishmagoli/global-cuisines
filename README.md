@@ -24,8 +24,7 @@ The following **additional** features are implemented:
 - [X] The web app has been deployed to be accessible via URL. The frontend was deployed with Vercel, and the backend was deployed with Render.
 
 ## Video Walkthrough
-**Note: please be sure to 
-Here's a walkthrough of implemented required features: [YouTube Link](https://youtu.be/Z_P0DReM6Ac)
+**Here's a walkthrough of implemented required features: [YouTube Link](https://youtu.be/Z_P0DReM6Ac)**
 
 ## License
 Copyright [2026] [Archie Goli]
