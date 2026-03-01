@@ -1,7 +1,7 @@
 import { CuisineCard } from "../components/cuisine.js";
 
 const getCuisines = async () => {
-    const response = await fetch('http://localhost:3001/cuisines');
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/cuisines`);
     const data = await response.json();
     return data;
 }

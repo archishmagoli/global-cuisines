@@ -9,7 +9,7 @@ const getCuisine = async () => {
         return
     }
 
-    const response = await fetch(`http://localhost:3001/cuisines/${id}`);
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/cuisines/${id}`);
 
     if (!response.ok) {
         window.location.href = '/404.html'

@@ -12,5 +12,5 @@ const PORT = process.env.PORT || 3001
 app.use('/cuisines', cuisineRouter);
     
 app.listen(PORT, () => {
-  console.log(`🚀 Server listening on http://localhost:${PORT}`);
+  console.log(`🚀 Server listening on http://${import.meta.env.VITE_API_URL}/cuisines:${PORT}`);
 });
