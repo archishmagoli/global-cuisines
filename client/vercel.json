@@ -1,5 +1,4 @@
 {
-  "cleanUrls": true,
   "rewrites": [
     { "source": "/cuisine", "destination": "/cuisine.html" }
   ]
