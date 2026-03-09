@@ -12,7 +12,7 @@ const createTableQuery = `
         description TEXT NOT NULL,
         signatureDish TEXT NOT NULL,
         flavorProfile TEXT NOT NULL,
-        submittedBy VARCHAR(255) NOT NULL,
+        submittedBy VARCHAR(255) NOT NULL
     )
 `
 
@@ -21,7 +21,7 @@ const createCuisinesTable = async () => {
         const res = await pool.query(createTableQuery);
         console.log('🎉 cuisines table created successfully');
     } catch (error) {
-          console.error('⚠️ error creating cuisines table', error)
+        console.error('⚠️ error creating cuisines table', error)
     }
 }
 

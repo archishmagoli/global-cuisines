@@ -1,9 +1,9 @@
 import express from 'express';
-import cuisineData from '../data/cuisines.js';
+import CuisineController from '../controllers/cuisines.js';
 
 const router = express.Router();
 router.get('/', (req, res) => {
-  res.status(200).json(cuisineData)
+  router.get('/', CuisineController.getCuisines);
 });
 
 router.get('/:cuisineId', (req, res) => {
