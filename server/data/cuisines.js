@@ -83,7 +83,7 @@ const cuisineData = [
   {
     "id": 10,
     "name": "Moroccan",
-    "image": "https://spoonuniversity.com/cdn-cgi/image/width=1020,height=680,fit=cover,format=auto/https://s3.amazonaws.com/secretsaucefiles/photos/images/000/108/617/original/mezzes.jpg?1485372365",
+    "image": "https://www.flavoursholidays.co.uk/wp-content/uploads/2024/09/Bl-what-to-eat-marrakech-TI.jpg",
     "description": "A North African treasure trove of spices, dried fruits, and slow-cooked tagines.",
     "signatureDish": "Lamb Tagine",
     "flavorProfile": "Warm, spiced, and slightly sweet",
