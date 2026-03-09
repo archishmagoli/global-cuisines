@@ -21,15 +21,15 @@ export const CuisineCard = (cuisine, showDetails = false, showButton = false) =>
     // Only show details in the "Learn More" pages
     if (showDetails) {
         const signatureDishParagraph = document.createElement('p');
-        signatureDishParagraph.innerHTML = '<strong>Signature Dish:</strong> ' + cuisine.signatureDish
+        signatureDishParagraph.innerHTML = '<strong>Signature Dish:</strong> ' + cuisine.signaturedish
         cuisineDetail.appendChild(signatureDishParagraph);
 
         const flavorProfileParagraph = document.createElement('p');
-        flavorProfileParagraph.innerHTML = '<strong>Flavor Profile:</strong> ' + cuisine.flavorProfile
+        flavorProfileParagraph.innerHTML = '<strong>Flavor Profile:</strong> ' + cuisine.flavorprofile
         cuisineDetail.appendChild(flavorProfileParagraph);
 
         const submittedByParagraph = document.createElement('p');
-        submittedByParagraph.innerHTML = '<strong>Submitted By:</strong> ' + cuisine.submittedBy
+        submittedByParagraph.innerHTML = '<strong>Submitted By:</strong> ' + cuisine.submittedby
         cuisineDetail.appendChild(submittedByParagraph);
     }
 
