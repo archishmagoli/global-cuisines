@@ -2,9 +2,7 @@ import express from 'express';
 import CuisineController from '../controllers/cuisines.js';
 
 const router = express.Router();
-router.get('/', (req, res) => {
-  router.get('/', CuisineController.getCuisines);
-});
+router.get('/', CuisineController.getCuisines);
 
 router.get('/:cuisineId', (req, res) => {
   const cuisine = cuisineData.find(c => c.id === parseInt(req.params.cuisineId))
