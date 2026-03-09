@@ -6,7 +6,7 @@ const selectTableQuery = `
 
 const getCuisines = async (req, res) => {
     try {
-        const res = await pool.query(selectTableQuery);
+        const results = await pool.query(selectTableQuery);
         res.status(200).json(results.rows);
     } catch (error) {
         res.status(409).json( { error: error.message } );
